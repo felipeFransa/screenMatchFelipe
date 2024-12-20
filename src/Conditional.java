@@ -15,7 +15,7 @@ public class Conditional {
         if (yearOfRelease >= 2018){
             System.out.println("launch");
 
-            if (typePlan.equals("Plus")){
+            if (included && typePlan.equals("Plus")){
                 System.out.println("welcome");
             }else {
                 System.out.println("Access denied");
