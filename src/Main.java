@@ -1,5 +1,10 @@
+import java.time.LocalDate;
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
+        Scanner reading = new Scanner(System.in);
+        LocalDate myDate = LocalDate.now();
         System.out.println("Welcome");
         System.out.println("Movie: Avatar");
 
