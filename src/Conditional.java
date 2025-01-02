@@ -1,9 +1,11 @@
+import java.time.LocalDate;
 import java.util.Scanner;
 
 public class Conditional {
     public static void main(String[] args) {
 
         Scanner reading = new Scanner(System.in);
+        LocalDate myDate = LocalDate.now();
         System.out.println("enter your type plan:");
         String typePlan = reading.nextLine();
 
@@ -14,6 +16,7 @@ public class Conditional {
 
         if (yearOfRelease >= 2018){
             System.out.println("launch");
+            System.out.println(myDate);
 
             if (included && typePlan.equals("Plus")){
                 System.out.println("welcome");
