@@ -17,8 +17,9 @@ public class Main {
 
         movie.setFirstName(newMovie);
         movie.setAge(2022);
+        movie.setNote(8.2);
 
-        double noteOne = 8.1;
+        double noteOne = movie.getNote();
         double noteTwo = 4.7;
         double noteThree = 6.0;
 
@@ -26,7 +27,7 @@ public class Main {
 
         System.out.println("Movie: " + newMovie + "came out at the cinema in " +movie.getFirstName());
         System.out.println("Movie: Avatar, critic's note " +classificationMovie);
+        System.out.println(movie.getAge());
         System.out.println(myDate);
-        System.out.println();
     }
 }

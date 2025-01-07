@@ -4,6 +4,16 @@ public class Movie {
     private String firstName;
     private int age;
 
+    public double getNote() {
+        return note;
+    }
+
+    public void setNote(double note) {
+        this.note = note;
+    }
+
+    private double note;
+
     public String getFirstName() {
         return firstName;
     }
