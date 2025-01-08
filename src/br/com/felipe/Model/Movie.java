@@ -4,6 +4,16 @@ public class Movie {
     private String firstName;
     private int age;
 
+    public boolean isTypPlan() {
+        return typPlan;
+    }
+
+    public void setTypPlan(boolean typPlan) {
+        this.typPlan = typPlan;
+    }
+
+    private boolean typPlan;
+
     public double getNote() {
         return note;
     }
