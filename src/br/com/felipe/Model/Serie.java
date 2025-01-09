@@ -3,7 +3,16 @@ package br.com.felipe.Model;
 public class Serie {
     private String title;
     private int age;
+    private int seasons;
     private boolean typePlan;
+
+    public int getSeasons() {
+        return seasons;
+    }
+
+    public void setSeasons(int seasons) {
+        this.seasons = seasons;
+    }
 
     public String getTitle() {
         return title;
