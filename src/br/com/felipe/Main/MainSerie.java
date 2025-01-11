@@ -2,11 +2,13 @@ package br.com.felipe.Main;
 
 import br.com.felipe.Model.Serie;
 
+import java.time.LocalDate;
 import java.util.Scanner;
 
 public class MainSerie {
     public static void main(String[] args) {
         Serie serie = new Serie();
+        LocalDate myDate = LocalDate.now();
         Scanner reading = new Scanner(System.in);
         System.out.println("Enter your serie: ");
         String serietitle = reading.nextLine();
@@ -18,6 +20,8 @@ public class MainSerie {
 
         if (serie.isTypePlan()){
             System.out.println(serie.getTitle());
+            System.out.println(serie.getAge());
+            System.out.println(myDate);
         }else {
             System.out.println("erro:");
         }
