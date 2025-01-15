@@ -3,6 +3,15 @@ package br.com.felipe.Model;
 public class Movie {
     private String firstName;
     private int age;
+    private String description;
+
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
+    }
 
     public boolean isTypPlan() {
         return typPlan;
