@@ -33,6 +33,7 @@ public class Main {
             System.out.println("Movie: Avatar, critic's note " +classificationMovie);
             System.out.println(movie.getAge());
             System.out.println(myDate);
+            System.out.println(myTime);
         }else {
             System.out.println("error:");
         }
