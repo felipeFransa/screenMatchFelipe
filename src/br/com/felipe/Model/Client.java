@@ -4,6 +4,16 @@ public class Client {
     private String firstName;
     private Integer age;
     private String city;
+    private Boolean typePlan;
+
+    public Boolean getTypePlan() {
+        return typePlan;
+    }
+
+    public void setTypePlan(Boolean typePlan) {
+        this.typePlan = typePlan;
+    }
+
 
     public String getFirstName() {
         return firstName;

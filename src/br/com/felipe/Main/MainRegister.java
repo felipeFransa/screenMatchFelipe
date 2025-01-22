@@ -9,9 +9,14 @@ public class MainRegister {
         registerClient.setFirstName("");
         registerClient.setAge(27);
         registerClient.setCity("");
+        registerClient.setTypePlan(true);
 
         System.out.println(registerClient.getFirstName());
         System.out.println(registerClient.getAge());
         System.out.println(registerClient.getCity());
+
+        if (registerClient.getTypePlan()){
+            System.out.println("Client premier");
+        }
     }
 }
