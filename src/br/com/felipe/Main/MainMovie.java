@@ -9,17 +9,21 @@ public class MainMovie {
         Scanner reading = new Scanner(System.in);
         System.out.println("Enter your movie:");
         String readingMovie = reading.nextLine();
+        System.out.println("Enter your description:");
+        String readingDescription = reading.nextLine();
         Movie movie = new Movie();
 
         movie.setFirstName(readingMovie);
         movie.setAge(2022);
+        movie.setDescription(readingDescription);
         movie.setTypPlan(true);
 
         if (movie.isTypPlan()){
             System.out.println(movie.getFirstName());
             System.out.println(movie.getAge());
+            System.out.println(movie.getDescription());
         }else {
-            System.out.println("erro:");
+            System.out.println("error:");
         }
     }
 }
